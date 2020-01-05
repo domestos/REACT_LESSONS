@@ -31,7 +31,7 @@ class Clock extends React.Component{
     // Update Events
     // componentWillReceiveProps(){}
     //show or not updated view. return default - true
-    // shouldComponentUpdate(){ }
+    // shouldComponentUpdate(){ return false }
      componentWillUpdate(){ console.log("component was updated")}
     // componentDidUpdate(){}
 
